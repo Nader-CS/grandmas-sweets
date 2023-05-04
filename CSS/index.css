@@ -11,3 +11,37 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+/* navbar */
+.navbar-toggler {
+  box-shadow: none !important;
+  border: none;
+}
+.toggler-icon {
+  font-size: 2rem;
+  color: var(--mainPink);
+}
+.nav-link {
+  color: var(--mainPink);
+  font-size: 1.5rem;
+}
+/*cart style*/
+.cart-info__icon {
+  color: var(--mainBlack);
+  cursor: pointer;
+}
+#cart-info {
+  border: 0.2rem solid var(--mainBlack);
+  color: var(--mainBlack);
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+#cart-info:hover {
+  background: var(--mainPink);
+  border-color: var(--mainPink);
+  color: var(--mainWhite);
+}
+#cart-info:hover .cart-info__icon {
+  color: var(--mainWhite);
+}
+/* end of navbar */
